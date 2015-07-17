@@ -21,6 +21,8 @@ PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     com.qualcomm.location \
     com.qualcomm.msapm \
+    ZTE_IRControl \
+    uei_sdk \
     TimeService \
     libtime_genoff \
     libTimeService \

@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX505J/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/ZTE/NX505J/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
     vendor/ZTE/NX505J/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/ZTE/NX505J/proprietary/app/uei_sdk/uei_sdk.apk:system/app/uei_sdk/uei_sdk.apk \
+    vendor/ZTE/NX505J/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
     vendor/ZTE/NX505J/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/ZTE/NX505J/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/ZTE/NX505J/proprietary/bin/lowi-server:system/bin/lowi-server \
