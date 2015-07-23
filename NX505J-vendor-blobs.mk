@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX505J/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/ZTE/NX505J/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/ZTE/NX505J/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/ZTE/NX505J/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/ZTE/NX505J/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/ZTE/NX505J/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/ZTE/NX505J/proprietary/bin/dun-server:system/bin/dun-server \
@@ -135,10 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX505J/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/ZTE/NX505J/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/ZTE/NX505J/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/ZTE/NX505J/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/ZTE/NX505J/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/ZTE/NX505J/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/ZTE/NX505J/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/ZTE/NX505J/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
     vendor/ZTE/NX505J/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/ZTE/NX505J/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/ZTE/NX505J/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \

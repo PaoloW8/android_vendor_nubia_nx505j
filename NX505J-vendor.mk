@@ -28,8 +28,8 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libmdmdetect \
     libperipheral_client \
-    libscale \
-    qcrilmsgtunnel \
-    shutdownlistener
+    libscale
+#    qcrilmsgtunnel \
+#    shutdownlistener
 
 $(call inherit-product, vendor/ZTE/NX505J/NX505J-vendor-blobs.mk)
