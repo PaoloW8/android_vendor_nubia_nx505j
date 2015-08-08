@@ -38,8 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX505J/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/ZTE/NX505J/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/ZTE/NX505J/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
-    vendor/ZTE/NX505J/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
-    vendor/ZTE/NX505J/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
     vendor/ZTE/NX505J/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/ZTE/NX505J/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
     vendor/ZTE/NX505J/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -137,6 +135,10 @@ PRODUCT_COPY_FILES += \
     vendor/ZTE/NX505J/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/ZTE/NX505J/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/ZTE/NX505J/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
+    vendor/ZTE/NX505J/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/ZTE/NX505J/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/ZTE/NX505J/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/ZTE/NX505J/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/ZTE/NX505J/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/ZTE/NX505J/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/ZTE/NX505J/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
