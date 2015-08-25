@@ -1,1 +1,1 @@
-# android_vendor_ZTE_NX505J
+# android_vendor_nubia_nx505j

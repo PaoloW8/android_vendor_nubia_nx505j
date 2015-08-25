@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/nubia/nx505j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/nubia/nx505j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
+    vendor/nubia/nx505j/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/nubia/nx505j/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/nubia/nx505j/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
     vendor/nubia/nx505j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -106,6 +107,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
     vendor/nubia/nx505j/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/nubia/nx505j/proprietary/lib/libmorpho_strobe_photo_jni.so:system/lib/libmorpho_strobe_photo_jni.so \
+    vendor/nubia/nx505j/proprietary/lib/libcurl_camera.so:system/lib/libcurl_camera.so \
+    vendor/nubia/nx505j/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
+    vendor/nubia/nx505j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
+    vendor/nubia/nx505j/proprietary/lib/libSFB.so:system/lib/libSFB.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
