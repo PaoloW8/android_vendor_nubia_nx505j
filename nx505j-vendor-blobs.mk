@@ -25,8 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/poad:system/bin/poad \
     vendor/nubia/nx505j/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/nubia/nx505j/proprietary/bin/sapd:system/bin/sapd \
-    vendor/nubia/nx505j/proprietary/bin/usbhub:system/bin/usbhub \
-    vendor/nubia/nx505j/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/nubia/nx505j/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/nubia/nx505j/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/nubia/nx505j/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -38,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/nubia/nx505j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/nubia/nx505j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
+    vendor/nubia/nx505j/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/nubia/nx505j/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/nubia/nx505j/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
     vendor/nubia/nx505j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
@@ -46,15 +45,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/nubia/nx505j/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/nubia/nx505j/proprietary/bin/quipc_main:system/bin/quipc_main \
-    vendor/nubia/nx505j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/nubia/nx505j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/nubia/nx505j/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/nubia/nx505j/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/nubia/nx505j/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/nubia/nx505j/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/nubia/nx505j/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/nubia/nx505j/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/nubia/nx505j/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/nubia/nx505j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/nubia/nx505j/proprietary/bin/time_daemon:system/bin/time_daemon \
