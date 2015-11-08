@@ -19,16 +19,27 @@ DEVICE_PACKAGE_OVERLAYS += vendor/nubia/nx505j/overlay
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
-    com.qualcomm.location \
     ZTE_IRControl \
     uei_sdk \
-    TimeService \
     libtime_genoff \
     libTimeService \
-    libmdmdetect \
     libperipheral_client \
     libscale \
+    shutdownlistener \
     qcrilmsgtunnel \
-    shutdownlistener
+    qcnvitems \
+    qcrilhook
+#    com.qualcomm.location \
+#    TimeService \
+
+PRODUCT_PACKAGES += \
+    libqmi \
+    libmdmdetect \
+    libqmiservices \
+    libidl \
+    libqcci_legacy \
+    libdiag \
+    libqmi_client_qmux \
+    libdsutils 
 
 $(call inherit-product, vendor/nubia/nx505j/nx505j-vendor-blobs.mk)
