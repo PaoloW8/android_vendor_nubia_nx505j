@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/nubia/nx505j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
     vendor/nubia/nx505j/proprietary/bin/garden_app:system/bin/garden_app \
-    vendor/nubia/nx505j/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/nubia/nx505j/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
     vendor/nubia/nx505j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
     vendor/nubia/nx505j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
