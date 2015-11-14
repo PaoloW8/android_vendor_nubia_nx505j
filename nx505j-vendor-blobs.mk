@@ -501,7 +501,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libpfecommon.so:system/vendor/lib/libpfecommon.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libprofiler_msmadc.so:system/vendor/lib/libprofiler_msmadc.so \
