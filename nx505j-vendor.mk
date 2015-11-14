@@ -28,9 +28,9 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    TimeService
 #    com.qualcomm.location \
-#    TimeService \
 
 PRODUCT_PACKAGES += \
     libqmi \
