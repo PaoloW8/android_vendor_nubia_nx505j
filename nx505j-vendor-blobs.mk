@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/nubia/nx505j/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/nubia/nx505j/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/nubia/nx505j/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/nubia/nx505j/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/nubia/nx505j/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
