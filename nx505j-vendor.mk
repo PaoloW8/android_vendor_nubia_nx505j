@@ -40,6 +40,7 @@ PRODUCT_PACKAGES += \
     libqcci_legacy \
     libdiag \
     libqmi_client_qmux \
-    libdsutils 
+    libdsutils \
+    libuiblur
 
 $(call inherit-product, vendor/nubia/nx505j/nx505j-vendor-blobs.mk)

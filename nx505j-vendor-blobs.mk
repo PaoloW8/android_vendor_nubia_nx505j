@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/nubia/nx505j/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/nubia/nx505j/proprietary/bin/perfd:system/bin/perfd \
-    vendor/nubia/nx505j/proprietary/bin/pfm:system/bin/pfm \
     vendor/nubia/nx505j/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/nubia/nx505j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/nubia/nx505j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
@@ -553,6 +552,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
