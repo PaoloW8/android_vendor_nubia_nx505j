@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/nubia/nx505j/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/nubia/nx505j/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nubia/nx505j/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/nubia/nx505j/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/nubia/nx505j/proprietary/bin/netmgrd:system/bin/netmgrd \
