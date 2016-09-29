@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/nubia/nx505j/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
     vendor/nubia/nx505j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
-    vendor/nubia/nx505j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nubia/nx505j/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/nubia/nx505j/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/nubia/nx505j/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
@@ -84,10 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nubia/nx505j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/nx505j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/nubia/nx505j/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
-    vendor/nubia/nx505j/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
-    vendor/nubia/nx505j/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/nubia/nx505j/proprietary/lib/libmorpho_strobe_photo_jni.so:system/lib/libmorpho_strobe_photo_jni.so \
     vendor/nubia/nx505j/proprietary/lib/libcurl_camera.so:system/lib/libcurl_camera.so \
     vendor/nubia/nx505j/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
     vendor/nubia/nx505j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
