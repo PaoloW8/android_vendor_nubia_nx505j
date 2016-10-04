@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
     vendor/nubia/nx505j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
     vendor/nubia/nx505j/proprietary/lib/libSFB.so:system/lib/libSFB.so \
-    vendor/nubia/nx505j/proprietary/lib/libbuffer_manager.so:system/lib/libbuffer_manager.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
