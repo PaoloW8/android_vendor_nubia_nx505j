@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/nubia/nx505j/proprietary/lib/libBlurEffect.so:system/lib/libBlurEffect.so \
     vendor/nubia/nx505j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
+    vendor/nubia/nx505j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nubia/nx505j/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/nubia/nx505j/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/nubia/nx505j/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
@@ -69,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/nubia/nx505j/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/nubia/nx505j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/nubia/nx505j/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/nubia/nx505j/proprietary/lib/libchromatix_imx135_069_liveshot.so:system/lib/libchromatix_imx135_069_liveshot.so \
     vendor/nubia/nx505j/proprietary/lib/libchromatix_imx135_front_liveshot.so:system/lib/libchromatix_imx135_front_liveshot.so \
     vendor/nubia/nx505j/proprietary/lib/libchromatix_imx135_gbao_lc898122_liveshot.so:system/lib/libchromatix_imx135_gbao_lc898122_liveshot.so \
@@ -490,12 +490,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libpfecommon.so:system/vendor/lib/libpfecommon.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libprofiler_msmadc.so:system/vendor/lib/libprofiler_msmadc.so \
