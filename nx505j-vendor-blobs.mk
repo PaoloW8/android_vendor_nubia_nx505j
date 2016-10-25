@@ -96,10 +96,12 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/nubia/nx505j/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    vendor/nubia/nx505j/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/nubia/nx505j/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -123,7 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/nubia/nx505j/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
-    vendor/nubia/nx505j/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/nubia/nx505j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/nubia/nx505j/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/nubia/nx505j/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/nubia/nx505j/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0076_Generic_PreI2C_NCD_Signed_configdata.ncd \
@@ -164,13 +166,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
