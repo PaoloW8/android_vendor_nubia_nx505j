@@ -85,8 +85,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nubia/nx505j/proprietary/lib/libcurl_camera.so:system/lib/libcurl_camera.so \
     vendor/nubia/nx505j/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
+    vendor/nubia/nx505j/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
     vendor/nubia/nx505j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
     vendor/nubia/nx505j/proprietary/lib/libSFB.so:system/lib/libSFB.so \
+    vendor/nubia/nx505j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
+    vendor/nubia/nx505j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -100,8 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/nubia/nx505j/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/nubia/nx505j/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/nubia/nx505j/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -168,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -250,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_nightmode_1.so:system/vendor/lib/libchromatix_imx214_nightmode_1.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_nightmode_2.so:system/vendor/lib/libchromatix_imx214_nightmode_2.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_nightmode.so:system/vendor/lib/libchromatix_imx214_nightmode.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_common.so:system/vendor/lib/libchromatix_imx214_ois_sharp_common.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_default_video_4k.so:system/vendor/lib/libchromatix_imx214_ois_sharp_default_video_4k.so \
@@ -258,6 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_hfr_60.so:system/vendor/lib/libchromatix_imx214_ois_sharp_hfr_60.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_liveshot.so:system/vendor/lib/libchromatix_imx214_ois_sharp_liveshot.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_nightmode_1.so:system/vendor/lib/libchromatix_imx214_ois_sharp_nightmode_1.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_nightmode_2.so:system/vendor/lib/libchromatix_imx214_ois_sharp_nightmode_2.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_nightmode.so:system/vendor/lib/libchromatix_imx214_ois_sharp_nightmode.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_preview.so:system/vendor/lib/libchromatix_imx214_ois_sharp_preview.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libchromatix_imx214_ois_sharp_previewzsl.so:system/vendor/lib/libchromatix_imx214_ois_sharp_previewzsl.so \
