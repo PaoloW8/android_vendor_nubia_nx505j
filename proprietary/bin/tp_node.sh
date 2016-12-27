@@ -76,6 +76,11 @@ if [ -e "/sys/bus/ttsp4/devices/main_ttsp_core.cyttsp4_i2c_adapter/easy_wakeup_g
 	ln -s /sys/bus/ttsp4/devices/main_ttsp_core.cyttsp4_i2c_adapter/easy_wakeup_gesture /data/tp/easy_wakeup_gesture
 fi
 
+if [ -e "/sys/bus/ttsp4/drivers/cyttsp4_btn/cyttsp4_btn.main_ttsp_core/button" ]; then
+	chown system:system /sys/bus/ttsp4/drivers/cyttsp4_btn/cyttsp4_btn.main_ttsp_core/button
+	ln -s /sys/bus/ttsp4/drivers/cyttsp4_btn/cyttsp4_btn.main_ttsp_core/button /data/tp/keypad_enable
+fi
+
 # ==============================================================================
 # Synaptics S3208 S3508
 
@@ -96,6 +101,10 @@ if [ -e "/sys/class/input/input0/f54/factory_result" ]; then
 	ln -s /sys/class/input/input0/f54/factory_result /data/tp/ic_detect
 fi
 
+if [ -e "/sys/bus/i2c/devices/2-0022/input/input0/0dbutton" ]; then
+	chown system:system /sys/bus/i2c/devices/2-0022/input/input0/0dbutton
+	ln -s /sys/bus/i2c/devices/2-0022/input/input0/0dbutton /data/tp/keypad_enable
+fi
 # ==============================================================================
 # Cypress TMA568
 
