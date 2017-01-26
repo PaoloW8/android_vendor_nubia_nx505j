@@ -25,11 +25,11 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libperipheral_client \
     libscale \
-    shutdownlistener \
-    qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
     TimeService
+#    shutdownlistener \
+#    qcrilmsgtunnel \
 #    com.qualcomm.location \
 
 PRODUCT_PACKAGES += \
