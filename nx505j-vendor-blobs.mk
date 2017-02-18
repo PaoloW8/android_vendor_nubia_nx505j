@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nubia/nx505j/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nubia/nx505j/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/nubia/nx505j/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/nubia/nx505j/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/nubia/nx505j/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -135,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/nubia/nx505j/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0087_Generic_PreI2C_NCD_Signed_configdata.ncd \
     vendor/nubia/nx505j/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/nubia/nx505j/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
