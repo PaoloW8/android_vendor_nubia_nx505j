@@ -27,9 +27,9 @@ PRODUCT_PACKAGES += \
     libscale \
     qcnvitems \
     qcrilhook \
-    TimeService
-#    shutdownlistener \
-#    qcrilmsgtunnel \
+    TimeService \
+    shutdownlistener \
+    qcrilmsgtunnel
 #    com.qualcomm.location \
 
 PRODUCT_PACKAGES += \

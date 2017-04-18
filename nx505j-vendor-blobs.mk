@@ -121,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/bin/radish:system/bin/radish \
     vendor/nubia/nx505j/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/nubia/nx505j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/nubia/nx505j/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/nubia/nx505j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nubia/nx505j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nubia/nx505j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -377,12 +378,14 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -390,6 +393,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
@@ -499,12 +503,17 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/nubia/nx505j/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/nubia/nx505j/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
